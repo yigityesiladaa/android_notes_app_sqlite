@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SNotes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_your_note_title">Type your note title</string>
+    <string name="type_your_note_description">Type your note description</string>
+    <string name="delete_btn_text">Delete Note</string>
+    <string name="edit_btn_text">Edit Note</string>
+    <string name="not_added_notes_yet_text">You Have Not Added Notes Yet</string>
+    <string name="your_note_text">Your Note</string>
+    <string name="select_data">Select Date</string>
+</resources>
