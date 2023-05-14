@@ -3,11 +3,9 @@ A mobile application where you can save your personal notes.
 
 ## Tools Used in the Application
 
-<a href="https://sqlite.org/" rel="nofollow"><img alt="sqlite" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/2560px-SQLite370.svg.png" width="80" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
-<a href="https://developer.android.com/studio" rel="nofollow"><img alt="android_studio" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png" width="40" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-<a href="https://kotlinlang.org/" rel="nofollow"><img alt="kotlin" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="40" style="max-width: 100%;"></a>
-
-
+<a href="https://kotlinlang.org/" rel="nofollow"><img alt="kotlin" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="40" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="https://developer.android.com/studio" rel="nofollow"><img alt="android_studio" src="https://github.com/yyigityesiladaa/yyigityesiladaa/blob/main/database_and_tool_icons/android_studio.svg" width="40" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="https://sqlite.org/" rel="nofollow"><img alt="sqlite" src="https://github.com/yyigityesiladaa/yyigityesiladaa/blob/main/database_and_tool_icons/sqlite.svg" width="40" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
 
 ## App Display Images
 
