@@ -1,9 +1,5 @@
 package com.example.odev_7.adapters
 
-import android.content.Context
-import android.content.Intent
-import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
@@ -12,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.odev_7.R
 import com.example.odev_7.databinding.NoteListItemBinding
 import com.example.odev_7.models.Note
-import com.example.odev_7.screens.NoteDetailFragment
 
 class CustomNoteAdapter: RecyclerView.Adapter<CustomNoteAdapter.NoteViewHolder>(){
 

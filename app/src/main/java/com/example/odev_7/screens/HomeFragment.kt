@@ -23,7 +23,6 @@ class HomeFragment : Fragment() , IHomeListener {
     private lateinit var customNoteAdapter: CustomNoteAdapter
     private lateinit var navController: NavController
     private lateinit var homeViewModel: HomeViewModel
-
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -38,17 +37,14 @@ class HomeFragment : Fragment() , IHomeListener {
         super.onViewCreated(view, savedInstanceState)
         init(view)
         registerEvents()
-        listenEvents()
     }
 
+    //define instances
     private fun init(view : View){
         navController = Navigation.findNavController(view)
         customNoteAdapter = CustomNoteAdapter()
-        binding.notesRecyclerView.adapter = customNoteAdapter
         homeViewModel = ViewModelProvider(this)[HomeViewModel::class.java]
         homeViewModel.db = DB(requireContext())
-        binding.notesRecyclerView.setHasFixedSize(true)
-        binding.notesRecyclerView.layoutManager = LinearLayoutManager(context)
         homeViewModel.getAllNotes()
     }
 
@@ -56,7 +52,9 @@ class HomeFragment : Fragment() , IHomeListener {
         binding.btnAddNote.setOnClickListener {
             showAddNotePopUp(this)
         }
-
+        binding.notesRecyclerView.adapter = customNoteAdapter
+        binding.notesRecyclerView.setHasFixedSize(true)
+        binding.notesRecyclerView.layoutManager = LinearLayoutManager(context)
     }
 
     override fun saveNote(title: String, description: String, createdAt: String) {
@@ -74,6 +72,8 @@ class HomeFragment : Fragment() , IHomeListener {
         homeViewModel.notes.observe(viewLifecycleOwner){result ->
             result?.let {
                 customNoteAdapter.submitList(it)
+
+                //Check notes empty status
                 homeViewModel.notes.value?.let {notes ->
                     if(notes.isEmpty()){
                         binding.txtNotAddedNotesYet.visibility = View.VISIBLE
@@ -83,6 +83,11 @@ class HomeFragment : Fragment() , IHomeListener {
                 }
             }
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        listenEvents()
     }
 
     override fun onDestroy() {

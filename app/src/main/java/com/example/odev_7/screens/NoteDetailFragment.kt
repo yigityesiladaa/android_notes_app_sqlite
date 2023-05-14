@@ -1,31 +1,21 @@
 package com.example.odev_7.screens
 
 import android.content.ContentValues
-import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.addCallback
-import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.example.odev_7.R
 import com.example.odev_7.databases.DB
 import com.example.odev_7.databinding.FragmentNoteDetailBinding
 import com.example.odev_7.interfaces.INoteDetailListener
 import com.example.odev_7.models.Note
-import com.example.odev_7.utils.Util.showAddNotePopUp
 import com.example.odev_7.utils.Util.showToast
 import com.example.odev_7.viewModels.NoteDetailViewModel
 import java.text.DateFormat
-import java.text.SimpleDateFormat
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
 import java.util.Calendar
-import java.util.Date
 
 class NoteDetailFragment : Fragment() , INoteDetailListener{
 
@@ -159,8 +149,6 @@ class NoteDetailFragment : Fragment() , INoteDetailListener{
         note?.let { currentNote->
             binding.txtNoteTitle.text = currentNote.title
             binding.txtNoteDescription.text = currentNote.description
-            Log.d("createdAt",currentNote.createdAt)
-            Log.d("modifiedAt",currentNote.modifiedAt.toString())
             if(currentNote.modifiedAt != null && currentNote.modifiedAt != currentNote.createdAt){
                 binding.txtCreatedAt.text = "modified at ${currentNote.modifiedAt}"
             }else{

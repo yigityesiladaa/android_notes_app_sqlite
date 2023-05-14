@@ -1,7 +1,6 @@
 package com.example.odev_7.viewModels
 
 import android.content.ContentValues
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.odev_7.databases.DB
@@ -28,7 +27,6 @@ class NoteDetailViewModel : ViewModel() {
             updateResult.value = database.updateNote(nid, title,description,modifiedAt)
         }
     }
-
 
     fun deleteNote(nid : Int){
         db?.let { database->

@@ -9,7 +9,6 @@ import androidx.fragment.app.DialogFragment
 import com.example.odev_7.databases.DB
 import com.example.odev_7.databinding.FragmentAddNotePopUpBinding
 import com.example.odev_7.interfaces.IHomeListener
-import com.example.odev_7.screens.HomeFragment
 import com.example.odev_7.utils.Util.showToast
 import java.util.*
 

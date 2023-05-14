@@ -4,7 +4,6 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import android.util.Log
 import com.example.odev_7.models.Note
 
 class DB(context : Context) : SQLiteOpenHelper(context, DBName,null, Version) {
@@ -77,7 +76,6 @@ class DB(context : Context) : SQLiteOpenHelper(context, DBName,null, Version) {
             val modifiedAt = cursor.getString(4)
 
             note = Note(nid,title,description,createdAt,modifiedAt)
-
         }
 
         db.close()
