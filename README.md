@@ -13,6 +13,6 @@ A mobile application where you can save your personal notes.
 
 <a ><img src="https://github.com/yyigityesiladaa/SNotes/blob/main/app_images/home_screen.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600" />&nbsp;&nbsp;&nbsp;&nbsp;</a>
 <a><img src="https://github.com/yyigityesiladaa/SNotes/blob/main/app_images/add_note_popup.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600"/>&nbsp;&nbsp;&nbsp;&nbsp;</a>
-<a href="https://sqlite.org/" rel="nofollow"><img src="https://github.com/yyigityesiladaa/SNotes/blob/main/app_images/date_picker.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600"/></a>
+<a href="https://sqlite.org/" rel="nofollow"><img src="https://github.com/yyigityesiladaa/SNotes/blob/main/app_images/date_picker.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600"/>&nbsp;&nbsp;&nbsp;&nbsp;</a>
 <a href="https://sqlite.org/" rel="nofollow"><img src="https://github.com/yyigityesiladaa/SNotes/blob/main/app_images/note_detail_screen.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600"/>&nbsp;&nbsp;&nbsp;&nbsp;</a>
 <a href="https://sqlite.org/" rel="nofollow"><img src="https://github.com/yyigityesiladaa/SNotes/blob/main/app_images/edit_note.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600" /></a>
