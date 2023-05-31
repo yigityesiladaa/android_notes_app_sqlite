@@ -13,6 +13,7 @@ Name  | Version
 ------------- | -------------
 Kotlin | 1.8.0
 Navigation  | 2.5.2
+SQLite | 3.39
 </p>
 
 ## App Display Images
