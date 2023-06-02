@@ -1,5 +1,6 @@
 # SNotes
-A mobile application where you can save your personal notes.
+
+A mobile application developed within the scope of Turkcell Kotlin Bootcamp, where you can save your personal notes.
 
 ## Tools Used in the Application
 
